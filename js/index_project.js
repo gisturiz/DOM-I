@@ -13,7 +13,7 @@ logoImg.src = 'img/logo.png';
 //CTA
 
 const ctaHeading = document.querySelector('.cta-text h1');
-ctaHeading.textContent = "DOM Is Awesome";
+ctaHeading.innerHTML = "DOM<br>Is<br>Awesome";
 
 const ctaButton = document.querySelector('.cta .cta-text button');
 ctaButton.textContent = "Get Started";
@@ -71,5 +71,5 @@ for (var i = 0; i < contactParagraphs.length; i++) {
 
 // Footer
 
-const footer = document.querySelector('.footer p');
-footer.textContent = "Copyright Great Idea! 2018";
+const footerContent = document.querySelector('footer p');
+footerContent.textContent = "Copyright Great Idea! 2018";
